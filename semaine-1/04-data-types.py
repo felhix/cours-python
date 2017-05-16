@@ -19,3 +19,4 @@ string_2 = 'Cela marche aussi avec les apostrophes'
 string_3 = "mot" # un string peut ne faire qu'un mot
 string_4 = "      " #ou une suite de white spaces
 string_5 = "1" #un chiffre entre guillemets sera considéré comme un string. Sans les guillemets, ce sera considété comme un integer.
+# error_string = "Bonjour j'ai oublié le guillemet qui ferme la phrase et ça va me renvoyer une erreur oups
