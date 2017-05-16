@@ -1,5 +1,5 @@
 #! python3
-# 03-variables.py - montre les trois premiers types de données
+# 04-data-types.py - montre les trois premiers types de données
 
 #Voici quelques integer, ou entier relatifs
 integer_1 = 1
