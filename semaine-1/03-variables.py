@@ -14,7 +14,7 @@ variable_1 = "Cette variable était un integer, maintenant c'est un string"
 variable_2 = "On peut aussi juste modifier la valeur, et garder le même type de donnée"
 variable_3 = variable_3 + 4.0 # ici nous disons à variable_3 de prendre la valeur de elle-même, plus 4.0. Ainsi variable_3 sera égale à 6.0
 
-#Ainsi, à partir de la ligne 13 du programme, variable_1 aura sa valeur changée. Sur si l'on affiche variable_1, cela affichera sa nouvelle valeur, et non pas celle déclarée en ligne 5
+#Ainsi, à partir de la ligne 13 du programme, variable_1 aura sa valeur changée. Si l'on fait un print() sur variable_1, cela affichera sa nouvelle valeur, et non pas celle déclarée en ligne 5
 print(variable_1) #=> "Cette variable était un integer, maintenant c'est un string"
 
 #On peut faire tout type d'opérations sur une variable. Là je vais déclarer deux variables, puis les multiplier entre elles pour m'apercevoir qu'on envoie trop d'emails
@@ -29,4 +29,4 @@ print("Bonjour " + first_name + " " + last_name) #=> Bonjour Félix Gaudé
 
 #Attention à ne pas faire des opérations foireuses sur les variables. Il n'est pas possible d'additionner un string avec un integer donc la ligne suivante va renvoyer un bug
 age = 26
-#print("Bonjour " + first_name + " tu as " + age + " ans !")
+#print("Bonjour " + first_name + " tu as " + age + " ans !") => TypeError: must be str, not int
