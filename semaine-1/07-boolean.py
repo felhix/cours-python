@@ -39,7 +39,7 @@ print("Félix Gaudé" == first_name + " " + last_name) 	#=> True, car les deux r
 print(first_name == "félix") 							#=> False, car la casse compte
 print(first_name == "Felix") 							#=> False, idem pour les accents
 
-#on peut déclarer une variable en tant que booléen
+#on peut déclarer une variable en tant que booléen (c'est un data type après tout)
 variable_1 = True
 variable_2 = 1 > 0					#=> True
 variable_3 = age < age_dans_1_an	#=> True
