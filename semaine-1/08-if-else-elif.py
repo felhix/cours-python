@@ -30,6 +30,7 @@ if 1 == 1:
 else: #else créé un nouveau bloc, il revient au niveau d'indentation du if de la ligne 28 pour pouvoir s'exécuter
 	print("FAUX !")
 
+
 #aussi, vous pouvez utiliser elif qui équivaut à sinon si
 age = 100	#tu as 100 ans
 if age < 10:	#si tu as moins de 10 ans
