@@ -1,5 +1,5 @@
 #! python3
-# 07-if-else-elif.py - comment faire marcher une condition si
+# 08-if-else-elif.py - comment faire marcher une condition si
 
 
 #voici comment marche une condition en si

@@ -2,18 +2,18 @@
 # 07-boolean.py - quelques booléens, opérateurs, et comparateurs
 
 # Voici quelques comparateurs
-print(1 == 1) 				#=> True, car 1 est égal à 1
-print(1 == "1") 			#=> False, car 1 est un integer, et "1" est un string
+print(1 == 1) 							#=> True, car 1 est égal à 1
+print(1 == "1") 						#=> False, car 1 est un integer, et "1" est un string
 print("Hello" == "Bonjour") #=> False, car ces 2 strings sont différents
-print("1" == "1") 			#=> True, car ces 2 strings sont identiques
+print("1" == "1") 					#=> True, car ces 2 strings sont identiques
 
-print(1 != 2) 				#=> True, car 1 est différent de 2
-print(1 != "1") 			#=> True, car 1 est un integer, et "1" est un string. Ils sont donc différents
+print(1 != 2) 							#=> True, car 1 est différent de 2
+print(1 != "1") 						#=> True, car 1 est un integer, et "1" est un string. Ils sont donc différents
 print("Hello" != "Hello") 	#=> False, car ces deux strings sont identiques
 
-print(0 < 1) 	#=> True, car 0 est strictement inférieur à 1
+print(0 < 1) 		#=> True, car 0 est strictement inférieur à 1
 print(-10 < -9) #=> True, car -10 est sctrictement inférieur à -9
-print(0 < 0) 	#=> False, car 0 n'est pas strictement inférieur à 0
+print(0 < 0) 		#=> False, car 0 n'est pas strictement inférieur à 0
 
 print(1 > 0) #=> True, car 1 est strictement supérieur à 0
 
@@ -28,20 +28,20 @@ print(0 >= 1) #=> False, car 0 n'est pas supérieur ou égal à 1
 #ça marche aussi avec des variables
 age = 26
 age_dans_1_an = 27
-print(age < age_dans_1_an) 		#=> True
-print(age == age_dans_1_an) 	#=> False
+print(age < age_dans_1_an) 			#=> True
+print(age == age_dans_1_an) 		#=> False
 print(age == age_dans_1_an - 1) #=> True, car 26 est égal à 27 - 1. Les opérations marchent sur les booléens
 
 #et aussi avec les strings
 first_name = "Félix"
 last_name = "Gaudé"
 print("Félix Gaudé" == first_name + " " + last_name) 	#=> True, car les deux renvoient à un string équivalent à "Félix Gaudé"
-print(first_name == "félix") 							#=> False, car la casse compte
-print(first_name == "Felix") 							#=> False, idem pour les accents
+print(first_name == "félix") 													#=> False, car la casse compte
+print(first_name == "Felix") 													#=> False, idem pour les accents
 
 #on peut déclarer une variable en tant que booléen (c'est un data type après tout)
 variable_1 = True
-variable_2 = 1 > 0					#=> True
+variable_2 = 1 > 0								#=> True
 variable_3 = age < age_dans_1_an	#=> True
 
 #on peut faire des opérations de booléns avec les opérateurs
