@@ -6,7 +6,7 @@
 statement = True	# déclare une variable égale à un booléen True
 if statement:		# si cette condition est True, alors exécutez le bloc ci-dessous
 	print("C'est vrai !!!")	#le bloc est indenté (appuyer sur "TAB" pour indenter un bloc), c'est ce que l'on exécutera si jamais la condition est remplie
-print("Je sors du bloc, fin du programme") #l'indentation redevenue normale, c'est comme dire au programme "sors de cette condition"
+print("Je sors du bloc, on reprend une activité normale !") #l'indentation redevenue normale, c'est comme dire au programme "sors de cette condition"
 
 
 #comme la notion de bloc peut paraitre déroutante, voici un exemple de blocs dans un bloc
