@@ -22,9 +22,5 @@ print("J'ai réussi à trouver " + str(len(links)) + " liens !")
 #passe sur chacun des 10 liens de la liste
 for link in links:
 	print("===============") #permet de séparer les éléments de la boucle pour mieux s'y repérer
-
-	#prends uniquement le texte du lien
-	print(link.text)
-
-	#récupère l'élément href du lien, soit l'url
-	print(link['href'])
+	print(link.text) #prends uniquement le texte du lien
+	print(link['href'].replace('/url?q=',''))	#récupère l'élément href du lien, soit l'url. Aussi, Google avait ajouté "/url?q=" en début de lien pour faire des liens customs. J'ai supprimé avec la fonction replace()
